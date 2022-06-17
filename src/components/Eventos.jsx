@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 
-
 export class EventosES6 extends Component{
     constructor(props){
         super(props);
@@ -34,7 +33,7 @@ export class EventosES6 extends Component{
     render(){
         return(
             <div>
-               <h2>Eventos ES6</h2>
+               <h2>Eventos - ES6</h2>
 
                <nav>
                   <button onClick={this.sumar}>+</button>

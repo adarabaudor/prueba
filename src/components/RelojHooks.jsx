@@ -9,8 +9,6 @@ export default function RelojHooks(){
     const [hora, setHora] =useState(new Date().toLocaleTimeString());
     const [visible, setVisible] =useState(false);
 
-    
-
     useEffect(()=>{
         let temporizador;
 
@@ -33,7 +31,7 @@ export default function RelojHooks(){
 
   return(
     <>
-    <h3>Reloj Hooks</h3>
+    <h3>Reloj Hooks - v1.x</h3>
 
     {visible && <Reloj hora={hora}/>}
             <button onClick={()=>setVisible(true)}>Iniciar</button>
